@@ -9,6 +9,7 @@
 						<thead>
 							<tr>
 								<th>No</th>
+								<th>Date</th>
 								<th>Full Name</th>
 								<th>Contact No</th>
 								<th>Email Address</th>
@@ -22,6 +23,7 @@
 							<?php foreach ($data_contact as $key => $row) { ?>
 							<tr>
 								<td><?php echo $no++; ?></td>
+								<td><?php echo $row->date; ?></td>
 								<td><?php echo $row->nama; ?></td>
 								<td><?php echo $row->hp; ?></td>
 								<td><?php echo $row->email; ?></td>

@@ -29,6 +29,7 @@
 			<h4>Contact Form</h4>
 			<form action="<?php echo site_url('Kontak/tambah_aksi');?>" method="post">
 				<input type="hidden" name="id_contact" value="">
+				<input type="hidden" name="date" value="<?php echo tanggalx();?>">
 				<input type="text" name="nama" placeholder="Name" required>
 				<input type="email" name="email" placeholder="Email" required>
 				<input type="text" name="hp" placeholder="Telephone" required>
