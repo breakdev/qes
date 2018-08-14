@@ -57,8 +57,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="w3layouts-details">
 				<ul>
-					<li><a href="mailto:qualityes@qes.co.id"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>qualityes@qes.co.id
-</a></li>
+					<li><a href="mailto:qualityes@qes.co.id"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>qualityes@qes.co.id</a></li>
 					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+62 778 5119404</li>
 				</ul>
 			</div>
