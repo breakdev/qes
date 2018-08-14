@@ -22,7 +22,15 @@ function admin_menu()
 	<a href="'.site_url('contact').'" class="waves-effect"><i class="fa fa-envelope m-r-10" aria-hidden="true"></i>Contact</a>
 	</li>
 	<li>
-	<a href="'.site_url('career').'" class="waves-effect"><i class="fa fa-user m-r-10" aria-hidden="true"></i>Career</a>
+	<a href="#" class="waves-effect"><i class="fa fa-briefcase m-r-10" aria-hidden="true"></i>Career</a>
+	<ul>
+	<li>
+	<a href="'.site_url('career').'" class="waves-effect"><i class="fa fa-briefcase m-r-10" aria-hidden="true"></i>Job Position</a>
+	</li>
+	<li>
+	<a href="'.site_url('applicant').'" class="waves-effect"><i class="fa fa-user m-r-10" aria-hidden="true"></i>Applicant</a>
+	</li>
+	</ul>
 	</li>
 	';
 }
