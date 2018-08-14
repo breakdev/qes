@@ -46,9 +46,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="social w3-agileitsicons"> 
 				<ul>
 					<li><a href="https://www.facebook.com/Quality-Engineering-Services-1861594970790934/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<!-- tidak ada 
 					<li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-					<li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+					 -->
+					<li><a class="drbl" href="https://www.linkedin.com/in/pt-qes-quality-engineering-services-b05474139/"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+					<!-- tidak ada
 					<li><a class="be" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i> </a></li>
+				-->
 				</ul>  
 			</div>
 			<div class="w3layouts-details">
