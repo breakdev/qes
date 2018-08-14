@@ -21,11 +21,11 @@
     <br>
     <br>
      <div class="form-group ">
-       <input type="text" class="form-control" name="user" placeholder="Username " id="UserName">
+       <input type="text" class="form-control" name="user" placeholder="Username">
        <i class="fa fa-user"></i>
      </div>
      <div class="form-group log-status">
-       <input type="password" class="form-control" name="pass" placeholder="Password" id="Passwod">
+       <input type="password" class="form-control" name="pass" placeholder="Password">
        <i class="fa fa-lock"></i>
      </div>
      <button type="submit" class="log-btn" >Log in</button>

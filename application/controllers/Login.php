@@ -27,7 +27,6 @@ class Login extends CI_Controller
 			$cek_login=$this->Admin_model->cek_login(
 				$this->input->post('user'),
 				$this->input->post('pass')
-				
 			);
 			if(!empty($cek_login))
 			{

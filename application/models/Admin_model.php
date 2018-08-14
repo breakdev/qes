@@ -12,6 +12,12 @@ class Admin_model extends CI_Model
 	{
 		parent::__construct();
 	}
+
+	function ambil_data()
+	{
+		$this->db->order_by($this->id,$this->order);
+		return $this->db->get($this->nama_table)->result();
+	}
 	
 	//Login
 	function cek_login($pass,$user)
