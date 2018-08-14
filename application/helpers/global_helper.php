@@ -21,6 +21,9 @@ function admin_menu()
 	<li>
 	<a href="'.site_url('contact').'" class="waves-effect"><i class="fa fa-envelope m-r-10" aria-hidden="true"></i>Contact</a>
 	</li>
+	<li>
+	<a href="'.site_url('career').'" class="waves-effect"><i class="fa fa-user m-r-10" aria-hidden="true"></i>Career</a>
+	</li>
 	';
 }
 

@@ -67,7 +67,7 @@ if (!function_exists('bulan')) {
  */
 if (!function_exists('tanggalx')) {
     function tanggalx() {
-        $tanggal = Date('d') . " " .bulan(). " ".Date('Y');
+        $tanggal = Date('d') . " " .bulan(). " ".Date('Y')."</br> ".Date('G').".".Date('i');
         return $tanggal;
     }
 }
