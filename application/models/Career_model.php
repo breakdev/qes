@@ -6,7 +6,7 @@ class Career_model extends CI_Model
 {
 	public $nama_table	= 'job_position';
 	public $id 			= 'id_position';
-	public $order 		= 'ASC';
+	public $order 		= 'DESC';
 
 	function __construct()
 	{
