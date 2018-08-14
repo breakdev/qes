@@ -20,6 +20,7 @@ class Kontak extends CI_Controller
 	{
 		$data=array(
 			'action'			=>site_url('Kontak/tambah_aksi'),
+			'date'				=>set_value('date'),
 			'nama'				=>set_value('nama'),
 			'hp'				=>set_value('hp'),
 			'email'				=>set_value('email'),
@@ -33,6 +34,7 @@ class Kontak extends CI_Controller
 	function tambah_aksi()
 	{
 		$data=array(
+			'date'			=>$this->input->post('date'),
 			'nama'			=>$this->input->post('nama'),
 			'hp'			=>$this->input->post('hp'),
 			'email'			=>$this->input->post('email'),

@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/datatables/dataTables.bootstrap.css') ?>"/>
         <link href="<?php echo base_url('assets/vendor/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet">
         <!-- Logo -->
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets1/images/logo.png')?>">
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets1/images/logo.png')?>">
 		<!-- MetisMenu CSS -->
 		<link href="<?php echo base_url('assets/vendor/metisMenu/metisMenu.min.css') ?>" rel="stylesheet">
 
