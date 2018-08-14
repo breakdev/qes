@@ -27,6 +27,9 @@
 								<td><?php echo $row->file_cv; ?></td>
 								<td><?php echo $row->id_position; ?></td>
 								<td>
+									<?php echo anchor(site_url('Applicant/delete/'.$row->id_applicant),
+										'<i class="fa fa-trash"> </i>',
+										'class="btn btn-danger"'); ?>
 								</td>
 							</tr>
 								<?php } ?>
