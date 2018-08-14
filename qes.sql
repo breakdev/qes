@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 19, 2017 at 01:54 PM
+-- Generation Time: Aug 14, 2018 at 08:43 AM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -72,6 +72,7 @@ INSERT INTO `client` (`id_client`, `years`, `project_item`, `client`, `location`
 
 CREATE TABLE `contact` (
   `id_contact` int(250) NOT NULL,
+  `date` varchar(30) NOT NULL,
   `nama` varchar(250) NOT NULL,
   `hp` varchar(250) NOT NULL,
   `email` varchar(250) NOT NULL,
@@ -93,6 +94,27 @@ CREATE TABLE `job` (
   `tgl_selesai` varchar(250) NOT NULL,
   `desc` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `job_position`
+--
+
+CREATE TABLE `job_position` (
+  `id_position` int(11) NOT NULL,
+  `position_name` varchar(100) DEFAULT NULL,
+  `description` varchar(450) DEFAULT NULL,
+  `requirement` varchar(450) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `job_position`
+--
+
+INSERT INTO `job_position` (`id_position`, `position_name`, `description`, `requirement`) VALUES
+(1, 'Software Engineererer', 'Bisa bikin aplikasi androiderere', 'S1erere'),
+(4, 'fasdfasdf', 'asdfsadfasdfa adfsadf asedfasdf asdfa sdfa sdf asdfasdfasdf asdfasd', 'asdfas df\r\nasdfasdf\r\nasdfasdfas');
 
 -- --------------------------------------------------------
 
@@ -162,6 +184,12 @@ ALTER TABLE `job`
   ADD KEY `id_perusahaan` (`id_perusahaan`);
 
 --
+-- Indexes for table `job_position`
+--
+ALTER TABLE `job_position`
+  ADD PRIMARY KEY (`id_position`);
+
+--
 -- Indexes for table `perusahaan`
 --
 ALTER TABLE `perusahaan`
@@ -197,6 +225,11 @@ ALTER TABLE `contact`
 --
 ALTER TABLE `job`
   MODIFY `id_job` int(250) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `job_position`
+--
+ALTER TABLE `job_position`
+  MODIFY `id_position` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- Constraints for dumped tables
 --
