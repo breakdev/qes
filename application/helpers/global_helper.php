@@ -65,5 +65,6 @@ function menu()
 	<li><a href="'.site_url('gallery').'">Gallery</a></li>
 	<li><a href="'.site_url('client').'">List Of SC</a></li> 
 	<li><a href="'.site_url('kontak').'">Contact</a></li>
+	<li><a href="www.career.qes.co.id">Career</a></li>
 	';
 }
